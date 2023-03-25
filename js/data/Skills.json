@@ -1,0 +1,58 @@
+{
+    "skills": [
+        {
+            "id": "html",
+            "title": "HTML",
+            "description": "Identificar el funcionamiento del navegador como herramienta para interpretar sitios web; Utilizar estructuras de etiquetas HTML para la construcción de páginas Web; Usar objetos multimedia en el desarrollo de sitios Web; Utilizar formatos de media en la construcción de páginas Web; Aplicar metodologías para incorporar gráficas vectoriales (SVG) a las páginas Web.",
+            "image": "./images/html.png"
+        },
+        {
+            "id": "css",
+            "title": "CSS",
+            "description": "Identificar la estructura de una Hoja de Estilo en Cascada (CSS) para proporcionar formato a los contenidos Web; Aplicar los componentes estructurales de la Hoja de Estilo en Cascada (CSS) en la construcción de interfaces Web respetando las mejores prácticas en los desarrollos Web Frontend; Crear sitios Web usando la Hoja de Estilo en Cascada (CSS) para la producción de interfaces visuales atractivas y adaptativas (responsive).",
+            "image": "./images/css.svg"
+        },
+        {
+            "id": "js",
+            "title": "JAVASCRIPT",
+            "description": "Identificar los fundamentos de JavaScript para la construcción de aplicaciones Web; Identificar las características extendidas de JavaScript para el desarrollo de soluciones Web orientadas al Front-end; Aplicar técnicas de comunicación asíncrona para la interacción del usuario con la lógica de negocio programada en el Front-end; Desarrollar aplicaciones que implementan estructuras de datos y manejo avanzado de funciones JavaScript para la construcción de aplicaciones Web que soporten el transporte de datos estructurados; Resumir los mecanismos y técnicas para la puesta en producción de los desarrollos Web Frontend con la finalidad de obtener un mejor rendimiento de nuestros sitios Web.",
+            "image": "./images/js.png"
+        },
+        {
+            "id": "react",
+            "title": "REACT",
+            "description": "Poseo conocimiento profundo en React, pudiendo realizar pruebas unitarias y de integración, además de tener un amplio conocimiento en hooks y manejo del Redux, Context y otros manejadores de estado.",
+            "image": "./images/react.png"
+        },
+        {
+            "id": "vue",
+            "title": "VUE",
+            "description": "Identificar propiedades de los componentes de Vue para el desarrollo de soluciones Web orientadas al Front End; Desarrollar componentes de Vue para enriquecimiento de la librería existente y dejar soluciones disponibles para futuros desarrollos de aplicaciones Web; Definir eventos de Vue para su incorporación y manejo en el desarrollo de aplicaciones Web que proporcionen excelentes experiencias de usuario; Seleccionar los mecanismos de comunicación con otras aplicaciones para aprovechar sus beneficios y datos en desarrollos con Vue.",
+            "image": "./images/vue.png"
+        },
+        {
+            "id": "node",
+            "title": "NODE.JS",
+            "description": "Aplicar los fundamentos y principios de Node.js en la construcción de aplicaciones Web; Usar las herramientas de Node.js para la preparación del ambiente de programación; Desarrollar APIs REST para el intercambio y administración de datos en Internet desde nuestra aplicación Web; Desarrollar aplicaciones Web empleando Node Express; Desarrollar consultas a una base de datos MySQL usando Node Express.",
+            "image": "./images/node.png"
+        },
+        {
+            "id": "mysql",
+            "title": "MYSQL",
+            "description": "MYSQL",
+            "image": "./images/mysql.png"
+        },
+        {
+            "id": "mongodb",
+            "title": "MONGODB",
+            "description": "mongodb",
+            "image": "./images/mongodb.png"
+        },
+        {
+            "id": "php",
+            "title": "PHP",
+            "description": "Desarrolle algunos proyectos básicos en php, en los que se incluyen un blog relacionado a strangerThings y una web para un restaurante.",
+            "image": "./images/php.png"
+        }
+    ]
+}
