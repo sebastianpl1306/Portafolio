@@ -39,13 +39,13 @@
         {
             "id": "mysql",
             "title": "MYSQL",
-            "description": "MYSQL",
+            "description": "He desarrollado diferentes bases de datos usando este manejador, ademas tengo el conocimiento para poder crear consultas avanzadas con joins.",
             "image": "./images/mysql.png"
         },
         {
             "id": "mongodb",
             "title": "MONGODB",
-            "description": "mongodb",
+            "description": "Poseo un amplio conocimiento en el desarrollo de bases de datos mongodb, realizando consultas simples con find y complejas usando el aggregate.",
             "image": "./images/mongodb.png"
         },
         {
