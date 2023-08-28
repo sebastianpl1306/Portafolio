@@ -1,40 +1,42 @@
 function checkForm(form){
+    console.log("entre");
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if (form.nombre.value == "") {
-        document.getElementById("nombreErroneo").innerHTML = "*el nombre es obligatorio";
-        formulario.email.focus();
+    if (form.name.value == "") {
+        document.getElementById("errorName").innerHTML = "*el nombre es obligatorio";
+        form.name.focus();
         return false;
     }else{
-        document.getElementById("nombreErroneo").innerHTML = "";
+        document.getElementById("errorName").innerHTML = "";
     }
 
     /*Check Phone*/
-    if (form.telefono.value == "") {
-        document.getElementById("telefonoErroneo").innerHTML = "*el telefono es obligatorio";
-        formulario.email.focus();
+    if (form.phone.value == "") {
+        document.getElementById("errorPhone").innerHTML = "*el teléfono es obligatorio";
+        form.phone.focus();
         return false;
     }else{
-        document.getElementById("telefonoErroneo").innerHTML = "";
+        document.getElementById("errorPhone").innerHTML = "";
     }
 
     /*Check Email*/
-    if (!re.test(form.correo.value)) {
-        document.getElementById("correoErroneo").innerHTML = "*email invalido";
-        formulario.email.focus();
+    if (!re.test(form.email.value)) {
+        document.getElementById("errorEmail").innerHTML = "*email invalido";
+        form.email.focus();
         return false;
     }else{
-        document.getElementById("correoErroneo").innerHTML = "";
+        document.getElementById("errorEmail").innerHTML = "";
     }
 
     /*Check description*/
-    if (form.comentario.value == "") {
-        document.getElementById("comentarioErroneo").innerHTML = "*Es obligatorio escribir un comentario";
-        formulario.email.focus();
+    if (form.comment.value == "") {
+        document.getElementById("errorComment").innerHTML = "*Es obligatorio escribir un comentario";
+        form.comment.focus();
         return false;
     }else{
-        document.getElementById("comentarioErroneo").innerHTML = "";
+        document.getElementById("errorComment").innerHTML = "";
     }
 
-    alert("¡Felizidades el formulario fue enviado con exito!");
-    return true;
+    // alert("¡Felicidades el formulario fue enviado con éxito!");
+    alert("El formulario se encuentra desactivado");
+    return false;
 }

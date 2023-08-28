@@ -1,0 +1,91 @@
+body{
+    background-color: var(--red);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/fondo2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: var(--rojo);
+    text-align: center;
+}
+
+.main-container article h1{
+    color: var(--white);
+    font-size: 10rem;
+    animation: start-title1-animation 1.5s;
+}
+
+.main-container article h3{
+    color: var(--white);
+    font-family: var(--font-default);
+    font-size: 4rem;
+    animation: start-title2-animation 1.5s;
+}
+
+.main-container article a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    animation: button-animation 2s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes start-title1-animation{
+    from{
+        transform: translateX(20%);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: none;
+    }
+}
+
+@-webkit-keyframes start-title2-animation{
+    from{   
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: none;
+    }
+}
+
+@-webkit-keyframes button-animation{
+    0%{
+        transform: scale(1, 1);
+    }
+    50%{
+        transform: scale(1.2, 1.2);
+        /* background-color: brown; */
+    }
+    100%{
+        transform: scale(1, 1);
+        /* background-color: azure; */
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px){
+    .main-container article h1{
+        font-size: 3rem;
+    }
+    
+    .main-container article h3{
+        font-size: 1rem;
+    }
+    
+    .main-container article a{
+        margin-top: 20px;
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+}

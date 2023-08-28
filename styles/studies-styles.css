@@ -1,0 +1,47 @@
+.main-container{
+    animation: start-main-container-animation 2s;
+}
+
+.main-container{
+    background-image: url('../assets/images/programming.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article h2{
+    font-size: 6rem;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.container-certificates{
+    display: flex;
+}
+
+.certificate {
+    width: 30%;
+    margin: 5px 10px;
+}
+
+@-webkit-keyframes start-main-container-animation{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px){
+    article h2{
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: var(--white);
+    }
+
+    .certificate {
+        width: 100%;
+        margin: auto;
+    }
+}

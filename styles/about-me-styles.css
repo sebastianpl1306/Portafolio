@@ -1,0 +1,70 @@
+.main-container{
+    animation: start-main-container-animation 2s;
+}
+
+article h2{
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+article p{
+    font-size: 1.4rem;
+    font-family: var(--font-default);
+}
+
+article div{
+    width: 90%;
+    margin: auto;
+}
+
+article div h3{
+    font-size: 3rem;
+    font-family: var(--font-default);
+    margin-bottom: 20px;
+}
+
+.container-images-technologies{
+    margin-bottom: 30px;
+}
+
+.container-images-technologies img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.animation-technologies {
+    animation-name: technologies-animation;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes technologies-animation{
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes start-main-container-animation{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px){
+    article h2{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    article p{
+        font-size: 1.4rem;
+        font-family: var(--font-default);
+    }
+}

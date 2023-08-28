@@ -1,0 +1,16 @@
+:root {
+    --red: #F52F41;
+    --blue: #2E4053;
+    --dark: #171717;
+    --white: #f6f6f6;
+    --grey: #b1b1b1;
+    --red-transparent: #fc4e5ca1;
+    --font-titles: "canter";
+    --font-default: Calibri;
+}
+
+@font-face{
+    font-family: canter;
+    font-style: bold;
+    src: url(../assets/fonts/canter\ bold.otf);
+}
