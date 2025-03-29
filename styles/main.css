@@ -136,4 +136,15 @@ article{
     article{
         padding: 10px;
     }
+
+    @media (0px <= width <= 768px){
+        section{
+            margin-left: auto;
+            width: 90%;
+        }
+
+        article{
+            padding: 10px;
+        }
+    }
 }
